@@ -1,0 +1,21 @@
+@import "src/Styles/variables";
+@import "src/Styles/functions";
+
+.ExperienceContainer {
+  height: auto;
+}
+
+.ExperienceTitle {
+  background-color: $DarkBlue;
+  color: white;
+  line-height: 28px;
+  padding: 10px 0px;
+}
+
+.ExperienceGrid {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  margin: rem(52);
+  row-gap: rem(40);
+  column-gap: rem(36);
+}

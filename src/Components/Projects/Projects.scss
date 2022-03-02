@@ -1,0 +1,12 @@
+@import "src/Styles/variables";
+
+.ProjectsContainer {
+  height: auto;
+}
+
+.ProjectsTitle {
+  background-color: $DarkerBlue;
+  color: white;
+  line-height: 28px;
+  padding: 10px 0px;
+}
