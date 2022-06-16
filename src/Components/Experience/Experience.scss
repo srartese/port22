@@ -19,3 +19,34 @@
   row-gap: rem(40);
   column-gap: rem(36);
 }
+
+.ExperienceButton {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  // height: min-content;
+}
+
+
+// MODAL STYLES
+.Modal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: papayawhip;
+  z-index: 100;
+  padding: 20px;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 100;
+}

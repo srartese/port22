@@ -2,39 +2,72 @@
 
 .RowContainer {
   grid-column: span 2;
-  height: rem(200);
+  height: rem(400);
+  overflow: hidden;
+  border-radius: 25px;
 }
 
-.RowHoverBubble {
+// .RowHoverBubble {
+//   background-color: #26547c;
+//   border-radius: 100%;
+//   height: 100%;
+//   width: auto;
+//   position: relative;
+//   right: 8%;
+//   bottom: 3%;
+//   opacity: 0;
+// }
+
+.ColumnContainer:hover .HoverOverlay, .HalfContainer:hover .HoverOverlay, .RowContainer:hover .HoverOverlay  {
+  opacity: .3;
+  z-index: 1;
 }
 
 .ColumnContainer {
   height: rem(786);
   grid-row: span 2;
   overflow: hidden;
+  border-radius: 25px;
+  z-index: 0;
+}
+
+.ColumnInfo, .RowInfo, .HalfInfo {
+  position: absolute;
+  z-index: 0;
+}
+
+.HoverOverlay {
+  background-color: #26547c;
+  height: 100%;
+  width:100%;
+  position: relative;
+  top: 0;
+  opacity: 0;
+  z-index: 1;
 }
 
 .ColumnHoverBubble {
-  background-color: #26547c;
-  border-radius: 100%;
-  height: 106%;
-  width: 115%;
-  position: relative;
-  right: 8%;
-  bottom: 3%;
+  // background-color: #26547c;
+  // height: 100%;
+  // width:100%;
+  // position: relative;
+  // opacity: 0;
+  z-index: 1;
 }
+
 
 .HalfContainer {
   height: rem(375);
   overflow: hidden;
   color: white;
+  border-radius: 25px;
 }
 
 .HalfHoverBubble {
-  background-color: rgb(96, 96, 233);
-  border-radius: 100%;
-  height: 200%;
-  width: 100%;
-  position: relative;
-  bottom: 90px;
+  // background-color: rgb(96, 96, 233);
+  // border-radius: 100%;
+  // height: 200%;
+  // width: 100%;
+  // position: relative;
+  // bottom: 90px;
 }
