@@ -28,13 +28,12 @@ function Experience() {
       <p> Helios Interactive </p>
       <div className="ExperienceGrid">
         {experienceJson.map((data) => (
-          // <button onClick={openxModal} className="ExperienceButton">
           <Display
             title={data.project}
             background="#ccffaa"
             type={data.display}
+            openModal={openModal}
           ></Display>
-          // </button>
         ))}
       </div>
       {/* MODAL */}
@@ -48,10 +47,11 @@ function Experience() {
       >
         <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
         <button onClick={closeModal}>close</button>
-        <div>I am a modal</div>
-        <form>
-          <p> Content would go here</p>
-        </form>
+        <h1>Title</h1>
+        <h2>project type</h2>
+        <div> Media </div>
+        <div> Role</div>
+        <div> tools</div>
       </Modal>
     </div>
   );
