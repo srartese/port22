@@ -2,7 +2,7 @@
 
 .RowContainer {
   grid-column: span 2;
-  height: rem(400);
+  height: rem(325);
   overflow: hidden;
   border-radius: 25px;
 }
@@ -24,7 +24,7 @@
 }
 
 .ColumnContainer {
-  height: rem(786);
+  height: rem(700);
   grid-row: span 2;
   overflow: hidden;
   border-radius: 25px;
@@ -57,7 +57,7 @@
 
 
 .HalfContainer {
-  height: rem(375);
+  height: rem(325);
   overflow: hidden;
   color: white;
   border-radius: 25px;

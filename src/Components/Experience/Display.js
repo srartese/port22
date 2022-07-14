@@ -3,12 +3,12 @@ import "./Display.scss";
 
 // ON click trigger it in display and pass it back to parent to actually handle the modal -
 
-function Display({ type, title, background, openModal }) {
+function Display({ index, type, title, background, openModal }) {
   if (type === "row") {
     return (
       <div className="RowContainer" style={{ background: background }}>
         <div className="RowInfo">{title}</div>
-        <div onClick={event => openModal()} className="HoverOverlay">
+        <div onClick={event => openModal(index)} className="HoverOverlay">
           <div className="RowHoverBubble">
         </div>
         </div>
@@ -18,7 +18,7 @@ function Display({ type, title, background, openModal }) {
     return (
       <div className="ColumnContainer" style={{ background: background }}>
         <div className="ColumnInfo">{title}</div>
-        <div onClick={event => openModal()}  className="HoverOverlay">
+        <div onClick={event => openModal(index)}  className="HoverOverlay">
           <div className="ColumnHoverBubble"></div>
         </div>
       </div>
@@ -27,7 +27,7 @@ function Display({ type, title, background, openModal }) {
     return (
       <div className="HalfContainer" style={{ background: background }}>
         <div className="HalfInfo">{title}</div>
-        <div onClick={event => openModal()}  className="HoverOverlay">
+        <div onClick={event => openModal(index)}  className="HoverOverlay">
           <div className="HalfHoverBubble"></div>
         </div>
       </div>

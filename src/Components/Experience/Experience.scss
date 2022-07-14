@@ -7,17 +7,25 @@
 
 .ExperienceTitle {
   background-color: $DarkBlue;
-  color: white;
+  color: $BrandWhite;
   line-height: 28px;
-  padding: 10px 0px;
+  padding: 20px 0px;
+  font-size: rem(20);
+}
+
+.jobTitle {
+  // font-size: rem(15);
+  margin: rem(40);
 }
 
 .ExperienceGrid {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
-  margin: rem(52);
+  margin: 0 auto;
   row-gap: rem(40);
   column-gap: rem(36);
+  max-width: rem(1500);
+  padding: rem(40) rem(100);
 }
 
 .ExperienceButton {
@@ -36,7 +44,7 @@
   left: 0px;
   height: 100%;
   width: 100%;
-  background-color: papayawhip;
+  background-color: $BrandWhite;
   z-index: 100;
   padding: 20px;
 }
@@ -49,4 +57,21 @@
   bottom: 0;
   background-color: transparent;
   z-index: 100;
+}
+
+.CloseBtn {
+  font-size: rem(30);
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  cursor: pointer;
+  background-color: $DarkBlue;
+  color: $BrandWhite;
+  border: 0;
+  padding: 50px;
+  border-radius: 50%;
+  margin: 0;
+}
+.CloseBtn:hover {
+  background-color: $Teal;
 }
