@@ -204,41 +204,41 @@
     "type": "Event Activation / Photo Experience ",
     "role": "Lead Developer / Technical Director",
     "tools": "Vue.js, APIs, SCSS, Analytics",
-    "mainimage": "",
+    "mainimage": "warriors22.jpg",
     "description": "We created a photo opportunity for The Golden State Warriors for their games through the 2022 playoff and finals season. The experience had guest take a photo of themselves and then select a frame to go around their photo. Each frame had a different style with some players from the team as well as the game attended and date. For different games there were select sponsors that could be swapped out on the title header and ticket designs. Once they finished selecting their design, they were then able to send it to themselves and share it on social media. The whole photo experience was built in Vue.js while utilizing our internal APIs, canvas, and deployed on SP4 tablets.",
-    "gallery": []
+    "gallery": ["warriors/w1.png", "warriors/w2.png", "warriors/w3.png", "warriors/w4.png", "warriors/w5.jpg"]
   },
   {
     "project": "D23 Kardashians",
     "display": "half",
-    "background": "",
+    "background": "kardashians.png",
     "type": "Event Activation / Video Experience ",
     "role": "Technical Director / Senior Developer",
     "tools": "",
-    "mainimage": "",
+    "mainimage": "kardashians.png",
     "description": "",
-    "gallery": []
+    "gallery": ["kardashians/k1.png", "kardashians/k2.png", "kardashians/k3.png"]
   },
   {
     "project": "D23 Abbott Elemenntary",
     "display": "half",
-    "background": "",
+    "background": "abbott.png",
     "type": "Event Activation / Video Experience ",
     "role": "Technical Director / Senior Developer",
     "tools": "",
-    "mainimage": "",
+    "mainimage": "abbott.png",
     "description": "",
-    "gallery": []
+    "gallery": ["abbott/a1.png", "abbott/a2.png", "abbott/a3.png", "abbott/a4.png"]
   },
   {
-    "project": "Warriors PAROI 2022",
+    "project": "Warriors Put a Ring on it 2022",
     "display": "row",
-    "background": "warriors22.jpg",
+    "background": "paroi.png",
     "type": "Event Activation / Photo Experience ",
     "role": "Technical Director / Senior Developer",
     "tools": "Vue.js, Canvas, APIs",
-    "mainimage": "",
+    "mainimage": "paroi.png",
     "description": "Helios created and deployed two versions of the Put a Ring on It application for the Golden State Warriors. The onsite local app went live in Thrive City and the Chase Lounge for Opening Night. The application on site allowed guests to take a picture and place championship rings from 2015, 2017, and 2018 on the photo with a blurred photo of the new 2022 ring as a teaser. The guest could resize, add, remove and drag where they wanted rings it on their picture. The experience was built in Vue.js while utilizing our internal APIs, canvas, and deployed on SP4 tablets.",
-    "gallery": []
+    "gallery": ["paroi/wp1.png", "paroi/wp2.png", "paroi/wp3.png", "paroi/wp4.png", "paroi/wp5.png", "paroi/wp6.png"]
   }
 ]
