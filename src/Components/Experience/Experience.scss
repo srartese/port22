@@ -1,5 +1,6 @@
 @import "src/Styles/variables";
 @import "src/Styles/functions";
+@import "src/Styles/fonts";
 
 .ExperienceContainer {
   height: auto;
@@ -16,6 +17,7 @@
 .jobTitle {
   // font-size: rem(15);
   margin: rem(40);
+  @extend %fontMontserrat;
 }
 
 .ExperienceGrid {
@@ -24,7 +26,7 @@
   margin: 0 auto;
   row-gap: rem(40);
   column-gap: rem(36);
-  max-width: rem(1500);
+  max-width: rem(1000);
   padding: rem(40) rem(100);
 }
 
@@ -46,7 +48,9 @@
   width: 100%;
   background-color: $BrandWhite;
   z-index: 100;
-  padding: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
 }
 
 .Overlay {
@@ -55,23 +59,23 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: transparent;
+  background-color: $BrandWhite;
   z-index: 100;
 }
 
 .CloseBtn {
   font-size: rem(30);
-  position: absolute;
+  position: fixed;
   right: 40px;
-  top: 0px;
+  top: 20px;
   cursor: pointer;
-  background-color: $DarkBlue;
-  color: $BrandWhite;
+  background-color: white;
+  color: $DarkBlue;
   border: 0;
-  padding: 50px;
-  border-radius: 50%;
-  margin: 0;
+  padding: 30px;
+  border-radius: 100%;
+  z-index: 2;
 }
 .CloseBtn:hover {
-  background-color: $Teal;
+  // background-color: $Teal;
 }

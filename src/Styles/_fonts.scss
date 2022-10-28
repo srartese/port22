@@ -1,0 +1,16 @@
+/* Fonts */
+
+// Playfair Regular
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../Styles/fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+%fontMontserrat {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+}

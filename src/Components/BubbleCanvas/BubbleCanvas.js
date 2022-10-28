@@ -57,7 +57,7 @@ function sketch(p5) {
      * Draw
      */
     p5.background(230);
-    p5.ellipse(56, 46, 55, 55);
+    //p5.ellipse(56, 46, 55, 55);
 
     // draw particles
     p5.noFill()

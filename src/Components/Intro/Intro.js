@@ -3,7 +3,7 @@ import NavBubble from "../NavBubble/NavBubble";
 import BubbleCanvas from "../BubbleCanvas/BubbleCanvas";
 import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
-import './Intro.css';
+import './Intro.scss';
 import Connect from "../Connect/Connect";
 
 
@@ -18,15 +18,17 @@ function Intro() {
     <div className="IntroContainer">
       <div className="NavContainer">
         <NavBubble title="Experience" color="#26547c" onMouseEnter={handleMouseEnterBubble}></NavBubble>
-        <NavBubble title="Projects" color="#37515f" onMouseEnter={handleMouseEnterBubble}></NavBubble>
+        {/* <NavBubble title="Projects" color="#37515f" onMouseEnter={handleMouseEnterBubble}></NavBubble> */}
         <NavBubble title="Connect" color="#3b9a93" onMouseEnter={handleMouseEnterBubble}></NavBubble>
+        <div>
+  </div>
       </div>
       <BubbleCanvas selectedColor={selectedColor} ></BubbleCanvas>
       
       <Experience>
       </Experience>
-      <Projects>
-      </Projects>
+      {/* <Projects>
+      </Projects> */}
       <Connect>
       </Connect>
     </div>

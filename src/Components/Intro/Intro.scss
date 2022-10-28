@@ -1,5 +1,8 @@
+@import "src/Styles/fonts";
+
 .IntroContainer {
   height: 100vh;
+  @extend %fontMontserrat;
 }
 
 .NavContainer {
