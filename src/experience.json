@@ -227,7 +227,7 @@
     "role": "Technical Director / Senior Developer",
     "tools": "",
     "mainimage": "abbott.png",
-    "description": "",
+    "description": "Helios created an interactive experience to transport guests into a scene of Abbott Elementary during Disney's D23 Expo at the Anaheim Convention center in September 2022. Users were able to select an Abbott Elementary scene of their choice, then step on a fabricated set to see themselves in that scene! The experience consisted of two parts, the tablet and the video capture. On the tablet users tapped their RFID wristband with their registration information then selected a scene that they wanted to use for a video takeaway. The guest then moved over the the set and recorded their takeaway. The tablet was built using React.js and internal APIs to communicate with the video capture portion.",
     "gallery": ["abbott/a1.png", "abbott/a2.png", "abbott/a3.png", "abbott/a4.png"]
   },
   {

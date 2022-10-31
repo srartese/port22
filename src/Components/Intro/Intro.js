@@ -17,20 +17,21 @@ function Intro() {
   return (
     <div className="IntroContainer">
       <div className="NavContainer">
-        <NavBubble title="Experience" color="#26547c" onMouseEnter={handleMouseEnterBubble}></NavBubble>
+      <a href="#experience"> <NavBubble title="Experience" color="#26547c" onMouseEnter={handleMouseEnterBubble}></NavBubble></a>
         {/* <NavBubble title="Projects" color="#37515f" onMouseEnter={handleMouseEnterBubble}></NavBubble> */}
-        <NavBubble title="Connect" color="#3b9a93" onMouseEnter={handleMouseEnterBubble}></NavBubble>
+        <a href="#connect"><NavBubble title="Connect" color="#3b9a93" onMouseEnter={handleMouseEnterBubble}></NavBubble></a>
         <div>
   </div>
       </div>
       <BubbleCanvas selectedColor={selectedColor} ></BubbleCanvas>
       
-      <Experience>
-      </Experience>
+      <div id="experience">
+        <Experience>
+      </Experience></div>
       {/* <Projects>
       </Projects> */}
-      <Connect>
-      </Connect>
+     <div id="connect"> <Connect>
+      </Connect></div>
     </div>
   );
 }
