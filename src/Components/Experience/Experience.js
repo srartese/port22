@@ -22,7 +22,7 @@ function Experience() {
   return (
     <div className="ExperienceContainer">
       <div className="ExperienceTitle"> Experience</div>
-      <h1 className="jobTitle"> Helios Interactive </h1>
+      <h1 className="jobTitle"> Helios Interactive - Web Team</h1>
       <div className="ExperienceGrid">
         {experienceJson.map((data, index) => (
           <Display

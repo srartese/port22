@@ -1,4 +1,6 @@
 @import "src/Styles/fonts";
+@import "src/Styles/functions";
+@import "src/Styles/variables";
 
 .IntroContainer {
   height: 100vh;
@@ -12,7 +14,28 @@
   left: 0;
   right: 0;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.name {
+  font-size: rem(35);
+  margin-top: rem(100);
+  margin-bottom: rem(20);
+  color: #114856;
+}
+
+.animationDiv {
+  width: 100%;
+}
+
+.navMenu {
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100%;
+  margin-top:rem(150);
+}
+a {
+  text-decoration: none;
 }

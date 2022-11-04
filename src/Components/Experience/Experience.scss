@@ -9,13 +9,14 @@
 .ExperienceTitle {
   background-color: $DarkBlue;
   color: $BrandWhite;
-  line-height: 28px;
-  padding: 20px 0px;
+  line-height: 20px;
+  padding: 10px 0px;
   font-size: rem(20);
 }
 
 .jobTitle {
   // font-size: rem(15);
+  color: #37515F;
   margin: rem(40);
   @extend %fontMontserrat;
 }

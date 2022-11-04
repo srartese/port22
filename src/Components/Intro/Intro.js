@@ -5,7 +5,7 @@ import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
 import './Intro.scss';
 import Connect from "../Connect/Connect";
-
+import { TypeAnimation } from 'react-type-animation';
 
 function Intro() {
   const [selectedColor, setSelectedColor] = useState("white")
@@ -17,10 +17,32 @@ function Intro() {
   return (
     <div className="IntroContainer">
       <div className="NavContainer">
-      <a href="#experience"> <NavBubble title="Experience" color="#26547c" onMouseEnter={handleMouseEnterBubble}></NavBubble></a>
+      <div className='name'>
+        Sara Artese
+      </div>
+      <div className="animationContainer"><TypeAnimation
+      sequence={[
+        'Creative Developer', 
+        1500, 
+        'Technical Director',
+        2000, 
+        'Senior Developer', 
+        2000,
+        'Open for work.',
+        () => {
+          console.log('Done typing!'); // Place optional callbacks anywhere in the array
+        }
+      ]}
+      wrapper="animationDiv"
+      cursor={true}
+      repeat={0}
+      style={{ fontSize: '2em', color:  '#E07A5F' }}
+    />
+    </div>
+    <div className="navMenu">
+      <a href="#experience"> <NavBubble title="Experience" color="#295b86" onMouseEnter={handleMouseEnterBubble}></NavBubble></a>
         {/* <NavBubble title="Projects" color="#37515f" onMouseEnter={handleMouseEnterBubble}></NavBubble> */}
-        <a href="#connect"><NavBubble title="Connect" color="#3b9a93" onMouseEnter={handleMouseEnterBubble}></NavBubble></a>
-        <div>
+        <a href="#connect"><NavBubble title="Connect" color="#2f9a97" onMouseEnter={handleMouseEnterBubble}></NavBubble></a>
   </div>
       </div>
       <BubbleCanvas selectedColor={selectedColor} ></BubbleCanvas>
