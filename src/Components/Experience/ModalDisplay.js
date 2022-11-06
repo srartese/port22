@@ -19,7 +19,7 @@ function ModalDisplay({ projectIndex }) {
             <h1 className="title">{currentProject.project}</h1>
             <h2 className="type">{currentProject.type}</h2>
             <div className="mainDetails">
-                <div className="mainImage"><img src={`${mainPhoto}`} alt="fish" className='photo'/></div>
+                <div className="mainImage"><img src={`${mainPhoto}`} alt="Photo of current project" className='photo'/></div>
                 <div className="role"> 
                   <p className='roleTitle '> Role: </p>
                   <p className='roleList '> {currentProject.role} </p>
@@ -32,6 +32,11 @@ function ModalDisplay({ projectIndex }) {
             <div className='bubbleTwo'></div>
             <div className='bubbleFour'></div>
             <p className="description"> {currentProject.description}</p>
+            {currentProject.websiteLink !== "" &&
+              <div className='link' >
+                <a href={currentProject.websiteLink} target="_blank" >Website</a>
+              </div>
+            }
             <div className="galleryContainer">
                 <div className="gallery">
                   <ImageGallery items={images} lazyLoad={true} showThumbnails={true} showPlayButton={false} />
