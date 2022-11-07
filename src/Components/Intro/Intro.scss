@@ -18,7 +18,17 @@
   justify-content: center;
   width: 100%;
 }
-
+.logoContainer {
+  position: absolute;
+  top: 0;
+  left: 30;
+  padding: rem(10);
+  img {
+    height: 60px;
+    width: 60px;
+    margin: 0;
+  }
+}
 .name {
   font-size: rem(35);
   margin-top: rem(100);

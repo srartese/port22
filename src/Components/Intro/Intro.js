@@ -2,7 +2,7 @@ import { useState } from 'react'
 import NavBubble from "../NavBubble/NavBubble";
 import BubbleCanvas from "../BubbleCanvas/BubbleCanvas";
 import Experience from "../Experience/Experience";
-import Projects from "../Projects/Projects";
+import Footer from "../Footer/Footer";
 import './Intro.scss';
 import Connect from "../Connect/Connect";
 import { TypeAnimation } from 'react-type-animation';
@@ -17,6 +17,7 @@ function Intro() {
   return (
     <div className="IntroContainer">
       <div className="NavContainer">
+      <div className='logoContainer'><img src='./logo.png' alt='logo of s dot a' /></div>
       <div className='name'>
         Sara Artese
       </div>
@@ -54,6 +55,7 @@ function Intro() {
       </Projects> */}
      <div id="connect"> <Connect>
       </Connect></div>
+      <Footer></Footer>
     </div>
   );
 }
