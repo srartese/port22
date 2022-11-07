@@ -138,6 +138,18 @@ h1.title {
     border-radius: 5px;
     padding: rem(8) rem(25);
 }
+.link {
+    margin: 0 auto;
+    font-size: rem(22);
+    color: $Highlight;
+    a {
+        color: $Highlight; 
+    }
+}
+.link:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
 .galleryContainer {
     margin: 0 auto;
     height: 100%;
