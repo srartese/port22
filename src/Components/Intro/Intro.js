@@ -29,6 +29,8 @@ function Intro() {
         2000, 
         'Senior Developer', 
         2000,
+        'Front-End Developer', 
+        2000,
         'Open for work.',
         () => {
           console.log('Done typing!'); // Place optional callbacks anywhere in the array

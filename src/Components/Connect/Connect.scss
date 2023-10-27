@@ -39,10 +39,11 @@ img {
 
 .infoBlock {
   width: 66%;
-  margin: rem(50) auto;
+  margin: rem(10) auto rem(50);
   padding: rem(5);
   border-radius: 5px;
   color: #183e3b;
+  text-align: left;
 }
 
 .socialLinks{ 
@@ -52,7 +53,7 @@ img {
   // justify-content: space-evenly;
   // justify-content: flex-end;
   width: 70%;
-  text-align: right;
+  text-align: center;
   margin: 0 auto;
   a {
     margin: 0 auto;
